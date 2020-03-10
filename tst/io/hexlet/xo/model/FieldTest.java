@@ -39,9 +39,7 @@ class FieldTest {
         try {
             field.setFigure(inputPoint, inputFigure);
             fail();
-        } catch (final AlreadyOccupiedException e){
-
-        }
+        } catch (final AlreadyOccupiedException e){}
     }
 
     @Test
