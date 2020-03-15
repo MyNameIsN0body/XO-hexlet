@@ -85,7 +85,6 @@ public class WinnerController {
             if (currentFigure == null) { return false; }
             nextFigure = field.getFigure(nextPoint);
         } catch (final InvalidPointException e) {
-            e.printStackTrace();
             return true;
         }
 
